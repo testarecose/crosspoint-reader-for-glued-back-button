@@ -77,8 +77,8 @@ class CrossPointSettings {
   // Default: Back, Confirm, Left, Right
   // Swapped: Left, Right, Back, Confirm!
   enum FRONT_BUTTON_LAYOUT {
-    BACK_CONFIRM_LEFT_RIGHT = 3,
-    LEFT_RIGHT_BACK_CONFIRM = 2,
+    BACK_CONFIRM_LEFT_RIGHT = 2,
+    LEFT_RIGHT_BACK_CONFIRM = 3,
     LEFT_BACK_CONFIRM_RIGHT = 0,
     BACK_CONFIRM_RIGHT_LEFT = 1,
     FRONT_BUTTON_LAYOUT_COUNT
@@ -86,10 +86,10 @@ class CrossPointSettings {
 
   // Front button hardware identifiers (for remapping)
   enum FRONT_BUTTON_HARDWARE {
-    FRONT_HW_BACK = 0,
-    FRONT_HW_CONFIRM = 1,
-    FRONT_HW_LEFT = 2,
-    FRONT_HW_RIGHT = 3,
+    FRONT_HW_BACK = 2,
+    FRONT_HW_CONFIRM = 3,
+    FRONT_HW_LEFT = 0,
+    FRONT_HW_RIGHT = 1,
     FRONT_BUTTON_HARDWARE_COUNT
   };
 
